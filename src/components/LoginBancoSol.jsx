@@ -32,7 +32,12 @@ const LoginBancoSol = () => {
     <div className="d-flex align-items-center justify-content-center min-vh-100 bg-light">
       <div className="card shadow-lg p-4" style={{ width: '22rem', borderRadius: '1rem' }}>
         <div className="text-center mb-4">
-          <img src="/images/logo-blue.png" alt="BancoSol" className="img-fluid mb-3" style={{ height: '60px' }} />
+          <img
+            src="/bancaluna.jpeg"
+            alt="BancoLuna"
+            className="img-fluid mb-3"
+            style={{ height: '100px', objectFit: 'contain' }}
+          />
           <h5 className="fw-semibold text-secondary">Inicia tu sesión</h5>
         </div>
         <form onSubmit={handleSubmit}>
